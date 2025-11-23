@@ -31,4 +31,5 @@ jobs:
       - name: Run gitleaks
         uses: zricethezav/gitleaks-action@v2.3.9
         with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           args: detect --source . --report-path gitleaks-report.json
