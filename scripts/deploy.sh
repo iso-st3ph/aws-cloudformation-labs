@@ -12,3 +12,4 @@ aws cloudformation deploy \
   --capabilities CAPABILITY_NAMED_IAM
 
 echo "Deployed stack: $STACK_NAME"
+chmod +x scripts/deploy.sh
