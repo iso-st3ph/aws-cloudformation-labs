@@ -1,0 +1,21 @@
+# Ignore local environment files and secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+credentials
+aws_credentials
+.aws/credentials
+.aws/config
+
+# Editor and OS files
+.DS_Store
+*.swp
+*.egg-info/
+__pycache__/
+
+# pre-commit baseline
+.secrets.baseline
